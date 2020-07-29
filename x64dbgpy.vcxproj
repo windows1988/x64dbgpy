@@ -11,11 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="log.cpp" />
+    <ClCompile Include="OM.cpp" />
     <ClCompile Include="pluginmain.cpp" />
     <ClCompile Include="py.cpp" />
     <ClCompile Include="stringutils.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="OM.h" />
     <ClInclude Include="pluginmain.h" />
     <ClInclude Include="pluginsdk\bridgemain.h" />
     <ClInclude Include="pluginsdk\capstone\arm.h" />
